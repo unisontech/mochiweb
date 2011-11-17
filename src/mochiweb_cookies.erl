@@ -16,7 +16,7 @@
         (C < 32 orelse
          C =:= $\s orelse C =:= $\t orelse
          C =:= $( orelse C =:= $) orelse C =:= $< orelse C =:= $> orelse
-         C =:= $@ orelse C =:= $, orelse C =:= $; orelse C =:= $: orelse
+         C =:= $, orelse C =:= $; orelse C =:= $: orelse
          C =:= $\\ orelse C =:= $\" orelse C =:= $/ orelse
          C =:= $[ orelse C =:= $] orelse C =:= $? orelse C =:= $= orelse
          C =:= ${ orelse C =:= $})).
